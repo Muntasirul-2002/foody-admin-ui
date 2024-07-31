@@ -49,7 +49,7 @@ const removeFood = async (foodId) => {
         {list.map((item, index) => {
           return (
             <div className="list-table-format" key={index}>
-              <img src={`${url}/images/` + item.image} alt="" />
+              <img src={`${url}/uploads/` + item.image} alt="" />
               <p>{item.name}</p>
               <p>{item.category}</p>
               <p>{item.price}</p>
